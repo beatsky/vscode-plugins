@@ -1,0 +1,102 @@
+{
+    "primary-color": {
+        "prefix": "@primary-color",
+        "body": ["@primary-color"],
+        "description": "[main-color]"
+    },
+    "success-color": {
+        "prefix": "@success-color",
+        "body": ["@success-color"],
+        "description": "[success-color]"
+    },
+    "processing-color": {
+        "prefix": "@processing-color",
+        "body": ["@processing-color"],
+        "description": "[processing-color]"
+    },
+    "error-color": {
+        "prefix": "@error-color",
+        "body": ["@error-color"],
+        "description": "[error-color]"
+    },
+    "highlight-color": {
+        "prefix": "@highlight-color",
+        "body": ["@highlight-color"],
+        "description": "[highlight-color]"
+    },
+    "warning-color": {
+        "prefix": "@warning-color",
+        "body": ["@warning-color"],
+        "description": "[warning-color]"
+    },
+    "normal-color": {
+        "prefix": "@normal-color",
+        "body": ["@normal-color"],
+        "description": "[normal-color]"
+    },
+    "white": {
+        "prefix": "@white",
+        "body": ["@white"],
+        "description": "[white]"
+    },
+    "black": {
+        "prefix": "@black",
+        "body": ["@black"],
+        "description": "[black]"
+    },
+    "light-gray": {
+        "prefix": "@light-gray",
+        "body": ["@light-gray"],
+        "description": "[light-gray]"
+    },
+    "background-color-base": {
+        "prefix": "@bc-base",
+        "body": ["@background-color-base"],
+        "description": "[background-color-base]"
+    },
+    "color-info": {
+        "prefix": "@color-info",
+        "body": ["@color-info"],
+        "description": "[Auxiliary information]"
+    },
+    "color-text-primary": {
+        "prefix": "@color-text-primary",
+        "body": ["@background-color-base"],
+        "description": "[ Main body]"
+    },
+    "color-text-regular": {
+        "prefix": "@color-text-regular",
+        "body": ["@color-text-regular"],
+        "description": "[Regular text color]"
+    },
+    "color-text-secondary": {
+        "prefix": "@color-text-secondary",
+        "body": ["@color-text-secondary"],
+        "description": "[Secondary text color]"
+    },
+    "color-text-placeholder": {
+        "prefix": "@color-text-secondary",
+        "body": ["@color-text-secondary"],
+        "description": "[Placeholder text color]"
+    },
+    "border-color-base": {
+        "prefix": "@border-color-base",
+        "body": ["@border-color-basey"],
+        "description": "[First-level border color]"
+    },
+    "border-color-light": {
+        "prefix": "@border-color-light",
+        "body": ["@border-color-light"],
+        "description": "[Secondary border color]"
+    },
+    "border-color-lighter": {
+        "prefix": "@border-color-lighter",
+        "body": ["@border-color-lighter"],
+        "description": "[Third-level border color]"
+    },
+    "border-color-extra-light": {
+        "prefix": "@border-color-extra-light",
+        "body": ["@border-color-extra-light"],
+        "description": "[Four-level border color]"
+    }
+}

@@ -12,8 +12,8 @@
     "contributes": {
         "snippets": [
             {
-                "language": "vue",
-                "path": "./snippets/style.json"
+                "language": "css",
+                "path": "./snippets/private-sign-style.json"
             }
         ]
     }
