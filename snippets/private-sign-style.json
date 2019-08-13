@@ -98,5 +98,30 @@
         "prefix": "@border-color-extra-light",
         "body": ["@border-color-extra-light"],
         "description": "[Four-level border color]"
+    },
+    "font-family": {
+        "prefix": "@font-family",
+        "body": ["@font-family"],
+        "description": "[font-family]"
+    },
+    "code-family": {
+        "prefix": "@code-family",
+        "body": ["@code-family"],
+        "description": "[code-family]"
+    },
+    "text-color": {
+        "prefix": "@text-color",
+        "body": ["@text-color"],
+        "description": "[text-color]"
+    },
+    "text-color-secondary": {
+        "prefix": "@text-color-secondary",
+        "body": ["@text-color-secondary"],
+        "description": "[text-color-secondary]"
+    },
+    "text-color-inverse": {
+        "prefix": "@text-color-inverse",
+        "body": ["@text-color-inverse"],
+        "description": "[text-color-inverse]"
     }
 }
