@@ -1,127 +1,765 @@
 {
+    "qys-prefix": {
+        "prefix": "@qys-prefix",
+        "body": [
+            "@qys-prefix"
+        ],
+        "description": "[qys-prefix]"
+    },
+    "html-selector": {
+        "prefix": "@html-selector",
+        "body": [
+            "@html-selector"
+        ],
+        "description": "[html-selector]"
+    },
     "primary-color": {
         "prefix": "@primary-color",
-        "body": ["@primary-color"],
-        "description": "[main-color]"
+        "body": [
+            "@primary-color"
+        ],
+        "description": "[primary-color]"
     },
     "success-color": {
         "prefix": "@success-color",
-        "body": ["@success-color"],
+        "body": [
+            "@success-color"
+        ],
         "description": "[success-color]"
     },
     "processing-color": {
         "prefix": "@processing-color",
-        "body": ["@processing-color"],
+        "body": [
+            "@processing-color"
+        ],
         "description": "[processing-color]"
     },
     "error-color": {
         "prefix": "@error-color",
-        "body": ["@error-color"],
+        "body": [
+            "@error-color"
+        ],
         "description": "[error-color]"
     },
     "highlight-color": {
         "prefix": "@highlight-color",
-        "body": ["@highlight-color"],
+        "body": [
+            "@highlight-color"
+        ],
         "description": "[highlight-color]"
     },
     "warning-color": {
         "prefix": "@warning-color",
-        "body": ["@warning-color"],
+        "body": [
+            "@warning-color"
+        ],
         "description": "[warning-color]"
     },
     "normal-color": {
         "prefix": "@normal-color",
-        "body": ["@normal-color"],
+        "body": [
+            "@normal-color"
+        ],
         "description": "[normal-color]"
     },
     "white": {
         "prefix": "@white",
-        "body": ["@white"],
+        "body": [
+            "@white"
+        ],
         "description": "[white]"
     },
     "black": {
         "prefix": "@black",
-        "body": ["@black"],
+        "body": [
+            "@black"
+        ],
         "description": "[black]"
     },
     "light-gray": {
         "prefix": "@light-gray",
-        "body": ["@light-gray"],
+        "body": [
+            "@light-gray"
+        ],
         "description": "[light-gray]"
     },
     "background-color-base": {
-        "prefix": "@bc-base",
-        "body": ["@background-color-base"],
+        "prefix": "@background-color-base",
+        "body": [
+            "@background-color-base"
+        ],
         "description": "[background-color-base]"
     },
     "color-info": {
         "prefix": "@color-info",
-        "body": ["@color-info"],
-        "description": "[Auxiliary information]"
+        "body": [
+            "@color-info"
+        ],
+        "description": "[color-info]"
     },
     "color-text-primary": {
         "prefix": "@color-text-primary",
-        "body": ["@background-color-base"],
-        "description": "[ Main body]"
+        "body": [
+            "@color-text-primary"
+        ],
+        "description": "[color-text-primary]"
     },
     "color-text-regular": {
         "prefix": "@color-text-regular",
-        "body": ["@color-text-regular"],
-        "description": "[Regular text color]"
+        "body": [
+            "@color-text-regular"
+        ],
+        "description": "[color-text-regular]"
     },
     "color-text-secondary": {
         "prefix": "@color-text-secondary",
-        "body": ["@color-text-secondary"],
-        "description": "[Secondary text color]"
+        "body": [
+            "@color-text-secondary"
+        ],
+        "description": "[color-text-secondary]"
     },
     "color-text-placeholder": {
-        "prefix": "@color-text-secondary",
-        "body": ["@color-text-secondary"],
-        "description": "[Placeholder text color]"
+        "prefix": "@color-text-placeholder",
+        "body": [
+            "@color-text-placeholder"
+        ],
+        "description": "[color-text-placeholder]"
     },
     "border-color-base": {
         "prefix": "@border-color-base",
-        "body": ["@border-color-basey"],
-        "description": "[First-level border color]"
+        "body": [
+            "@border-color-base"
+        ],
+        "description": "[border-color-base]"
     },
     "border-color-light": {
         "prefix": "@border-color-light",
-        "body": ["@border-color-light"],
-        "description": "[Secondary border color]"
+        "body": [
+            "@border-color-light"
+        ],
+        "description": "[border-color-light]"
     },
     "border-color-lighter": {
         "prefix": "@border-color-lighter",
-        "body": ["@border-color-lighter"],
-        "description": "[Third-level border color]"
+        "body": [
+            "@border-color-lighter"
+        ],
+        "description": "[border-color-lighter]"
     },
     "border-color-extra-light": {
         "prefix": "@border-color-extra-light",
-        "body": ["@border-color-extra-light"],
-        "description": "[Four-level border color]"
+        "body": [
+            "@border-color-extra-light"
+        ],
+        "description": "[border-color-extra-light]"
+    },
+    "primary-1": {
+        "prefix": "@primary-1",
+        "body": [
+            "@primary-1"
+        ],
+        "description": "[primary-1]"
+    },
+    "primary-2": {
+        "prefix": "@primary-2",
+        "body": [
+            "@primary-2"
+        ],
+        "description": "[primary-2]"
+    },
+    "primary-3": {
+        "prefix": "@primary-3",
+        "body": [
+            "@primary-3"
+        ],
+        "description": "[primary-3]"
+    },
+    "primary-4": {
+        "prefix": "@primary-4",
+        "body": [
+            "@primary-4"
+        ],
+        "description": "[primary-4]"
+    },
+    "primary-5": {
+        "prefix": "@primary-5",
+        "body": [
+            "@primary-5"
+        ],
+        "description": "[primary-5]"
+    },
+    "primary-6": {
+        "prefix": "@primary-6",
+        "body": [
+            "@primary-6"
+        ],
+        "description": "[primary-6]"
+    },
+    "primary-7": {
+        "prefix": "@primary-7",
+        "body": [
+            "@primary-7"
+        ],
+        "description": "[primary-7]"
+    },
+    "primary-8": {
+        "prefix": "@primary-8",
+        "body": [
+            "@primary-8"
+        ],
+        "description": "[primary-8]"
+    },
+    "primary-9": {
+        "prefix": "@primary-9",
+        "body": [
+            "@primary-9"
+        ],
+        "description": "[primary-9]"
+    },
+    "primary-10": {
+        "prefix": "@primary-10",
+        "body": [
+            "@primary-10"
+        ],
+        "description": "[primary-10]"
+    },
+    "body-background": {
+        "prefix": "@body-background",
+        "body": [
+            "@body-background"
+        ],
+        "description": "[body-background]"
+    },
+    "component-background": {
+        "prefix": "@component-background",
+        "body": [
+            "@component-background"
+        ],
+        "description": "[component-background]"
     },
     "font-family": {
         "prefix": "@font-family",
-        "body": ["@font-family"],
+        "body": [
+            "@font-family"
+        ],
         "description": "[font-family]"
     },
     "code-family": {
         "prefix": "@code-family",
-        "body": ["@code-family"],
+        "body": [
+            "@code-family"
+        ],
         "description": "[code-family]"
     },
     "text-color": {
         "prefix": "@text-color",
-        "body": ["@text-color"],
+        "body": [
+            "@text-color"
+        ],
         "description": "[text-color]"
     },
     "text-color-secondary": {
         "prefix": "@text-color-secondary",
-        "body": ["@text-color-secondary"],
+        "body": [
+            "@text-color-secondary"
+        ],
         "description": "[text-color-secondary]"
     },
     "text-color-inverse": {
         "prefix": "@text-color-inverse",
-        "body": ["@text-color-inverse"],
+        "body": [
+            "@text-color-inverse"
+        ],
         "description": "[text-color-inverse]"
+    },
+    "icon-color": {
+        "prefix": "@icon-color",
+        "body": [
+            "@icon-color"
+        ],
+        "description": "[icon-color]"
+    },
+    "icon-color-hover": {
+        "prefix": "@icon-color-hover",
+        "body": [
+            "@icon-color-hover"
+        ],
+        "description": "[icon-color-hover]"
+    },
+    "heading-color-base": {
+        "prefix": "@heading-color-base",
+        "body": [
+            "@heading-color-base"
+        ],
+        "description": "[heading-color-base]"
+    },
+    "heading-color": {
+        "prefix": "@heading-color",
+        "body": [
+            "@heading-color"
+        ],
+        "description": "[heading-color]"
+    },
+    "heading-color-dark": {
+        "prefix": "@heading-color-dark",
+        "body": [
+            "@heading-color-dark"
+        ],
+        "description": "[heading-color-dark]"
+    },
+    "text-color-dark": {
+        "prefix": "@text-color-dark",
+        "body": [
+            "@text-color-dark"
+        ],
+        "description": "[text-color-dark]"
+    },
+    "text-color-secondary-dark": {
+        "prefix": "@text-color-secondary-dark",
+        "body": [
+            "@text-color-secondary-dark"
+        ],
+        "description": "[text-color-secondary-dark]"
+    },
+    "text-selection-bg": {
+        "prefix": "@text-selection-bg",
+        "body": [
+            "@text-selection-bg"
+        ],
+        "description": "[text-selection-bg]"
+    },
+    "font-variant-base": {
+        "prefix": "@font-variant-base",
+        "body": [
+            "@font-variant-base"
+        ],
+        "description": "[font-variant-base]"
+    },
+    "font-feature-settings-base": {
+        "prefix": "@font-feature-settings-base",
+        "body": [
+            "@font-feature-settings-base"
+        ],
+        "description": "[font-feature-settings-base]"
+    },
+    "font-size-base": {
+        "prefix": "@font-size-base",
+        "body": [
+            "@font-size-base"
+        ],
+        "description": "[font-size-base]"
+    },
+    "font-size-lg": {
+        "prefix": "@font-size-lg",
+        "body": [
+            "@font-size-lg"
+        ],
+        "description": "[font-size-lg]"
+    },
+    "font-size-sm": {
+        "prefix": "@font-size-sm",
+        "body": [
+            "@font-size-sm"
+        ],
+        "description": "[font-size-sm]"
+    },
+    "heading-main-size": {
+        "prefix": "@heading-main-size",
+        "body": [
+            "@heading-main-size"
+        ],
+        "description": "[heading-main-size]"
+    },
+    "heading-1-size": {
+        "prefix": "@heading-1-size",
+        "body": [
+            "@heading-1-size"
+        ],
+        "description": "[heading-1-size]"
+    },
+    "heading-2-size": {
+        "prefix": "@heading-2-size",
+        "body": [
+            "@heading-2-size"
+        ],
+        "description": "[heading-2-size]"
+    },
+    "heading-3-size": {
+        "prefix": "@heading-3-size",
+        "body": [
+            "@heading-3-size"
+        ],
+        "description": "[heading-3-size]"
+    },
+    "heading-4-size": {
+        "prefix": "@heading-4-size",
+        "body": [
+            "@heading-4-size"
+        ],
+        "description": "[heading-4-size]"
+    },
+    "line-height-base": {
+        "prefix": "@line-height-base",
+        "body": [
+            "@line-height-base"
+        ],
+        "description": "[line-height-base]"
+    },
+    "border-radius-base": {
+        "prefix": "@border-radius-base",
+        "body": [
+            "@border-radius-base"
+        ],
+        "description": "[border-radius-base]"
+    },
+    "border-radius-sm": {
+        "prefix": "@border-radius-sm",
+        "body": [
+            "@border-radius-sm"
+        ],
+        "description": "[border-radius-sm]"
+    },
+    "padding-lg": {
+        "prefix": "@padding-lg",
+        "body": [
+            "@padding-lg"
+        ],
+        "description": "[padding-lg]"
+    },
+    "padding-md": {
+        "prefix": "@padding-md",
+        "body": [
+            "@padding-md"
+        ],
+        "description": "[padding-md]"
+    },
+    "padding-sm": {
+        "prefix": "@padding-sm",
+        "body": [
+            "@padding-sm"
+        ],
+        "description": "[padding-sm]"
+    },
+    "padding-xs": {
+        "prefix": "@padding-xs",
+        "body": [
+            "@padding-xs"
+        ],
+        "description": "[padding-xs]"
+    },
+    "item-active-bg": {
+        "prefix": "@item-active-bg",
+        "body": [
+            "@item-active-bg"
+        ],
+        "description": "[item-active-bg]"
+    },
+    "item-hover-bg": {
+        "prefix": "@item-hover-bg",
+        "body": [
+            "@item-hover-bg"
+        ],
+        "description": "[item-hover-bg]"
+    },
+    "link-color": {
+        "prefix": "@link-color",
+        "body": [
+            "@link-color"
+        ],
+        "description": "[link-color]"
+    },
+    "link-hover-color": {
+        "prefix": "@link-hover-color",
+        "body": [
+            "@link-hover-color"
+        ],
+        "description": "[link-hover-color]"
+    },
+    "link-active-color": {
+        "prefix": "@link-active-color",
+        "body": [
+            "@link-active-color"
+        ],
+        "description": "[link-active-color]"
+    },
+    "link-decoration": {
+        "prefix": "@link-decoration",
+        "body": [
+            "@link-decoration"
+        ],
+        "description": "[link-decoration]"
+    },
+    "link-hover-decoration": {
+        "prefix": "@link-hover-decoration",
+        "body": [
+            "@link-hover-decoration"
+        ],
+        "description": "[link-hover-decoration]"
+    },
+    "ease-base-out": {
+        "prefix": "@ease-base-out",
+        "body": [
+            "@ease-base-out"
+        ],
+        "description": "[ease-base-out]"
+    },
+    "ease-base-in": {
+        "prefix": "@ease-base-in",
+        "body": [
+            "@ease-base-in"
+        ],
+        "description": "[ease-base-in]"
+    },
+    "ease-out": {
+        "prefix": "@ease-out",
+        "body": [
+            "@ease-out"
+        ],
+        "description": "[ease-out]"
+    },
+    "ease-in": {
+        "prefix": "@ease-in",
+        "body": [
+            "@ease-in"
+        ],
+        "description": "[ease-in]"
+    },
+    "ease-in-out": {
+        "prefix": "@ease-in-out",
+        "body": [
+            "@ease-in-out"
+        ],
+        "description": "[ease-in-out]"
+    },
+    "ease-out-back": {
+        "prefix": "@ease-out-back",
+        "body": [
+            "@ease-out-back"
+        ],
+        "description": "[ease-out-back]"
+    },
+    "ease-in-back": {
+        "prefix": "@ease-in-back",
+        "body": [
+            "@ease-in-back"
+        ],
+        "description": "[ease-in-back]"
+    },
+    "ease-in-out-back": {
+        "prefix": "@ease-in-out-back",
+        "body": [
+            "@ease-in-out-back"
+        ],
+        "description": "[ease-in-out-back]"
+    },
+    "ease-out-circ": {
+        "prefix": "@ease-out-circ",
+        "body": [
+            "@ease-out-circ"
+        ],
+        "description": "[ease-out-circ]"
+    },
+    "ease-in-circ": {
+        "prefix": "@ease-in-circ",
+        "body": [
+            "@ease-in-circ"
+        ],
+        "description": "[ease-in-circ]"
+    },
+    "ease-in-out-circ": {
+        "prefix": "@ease-in-out-circ",
+        "body": [
+            "@ease-in-out-circ"
+        ],
+        "description": "[ease-in-out-circ]"
+    },
+    "ease-out-quint": {
+        "prefix": "@ease-out-quint",
+        "body": [
+            "@ease-out-quint"
+        ],
+        "description": "[ease-out-quint]"
+    },
+    "ease-in-quint": {
+        "prefix": "@ease-in-quint",
+        "body": [
+            "@ease-in-quint"
+        ],
+        "description": "[ease-in-quint]"
+    },
+    "ease-in-out-quint": {
+        "prefix": "@ease-in-out-quint",
+        "body": [
+            "@ease-in-out-quint"
+        ],
+        "description": "[ease-in-out-quint]"
+    },
+    "animation-duration-slow": {
+        "prefix": "@animation-duration-slow",
+        "body": [
+            "@animation-duration-slow"
+        ],
+        "description": "[animation-duration-slow]"
+    },
+    "animation-duration-base": {
+        "prefix": "@animation-duration-base",
+        "body": [
+            "@animation-duration-base"
+        ],
+        "description": "[animation-duration-base]"
+    },
+    "animation-duration-fast": {
+        "prefix": "@animation-duration-fast",
+        "body": [
+            "@animation-duration-fast"
+        ],
+        "description": "[animation-duration-fast]"
+    },
+    "border-color-component": {
+        "prefix": "@border-color-component",
+        "body": [
+            "@border-color-component"
+        ],
+        "description": "[border-color-component]"
+    },
+    "border-color-extra-component": {
+        "prefix": "@border-color-extra-component",
+        "body": [
+            "@border-color-extra-component"
+        ],
+        "description": "[border-color-extra-component]"
+    },
+    "border-color-base": {
+        "prefix": "@border-color-base",
+        "body": [
+            "@border-color-base"
+        ],
+        "description": "[border-color-base]"
+    },
+    "border-color-split": {
+        "prefix": "@border-color-split",
+        "body": [
+            "@border-color-split"
+        ],
+        "description": "[border-color-split]"
+    },
+    "border-color-inverse": {
+        "prefix": "@border-color-inverse",
+        "body": [
+            "@border-color-inverse"
+        ],
+        "description": "[border-color-inverse]"
+    },
+    "border-width-base": {
+        "prefix": "@border-width-base",
+        "body": [
+            "@border-width-base"
+        ],
+        "description": "[border-width-base]"
+    },
+    "border-style-base": {
+        "prefix": "@border-style-base",
+        "body": [
+            "@border-style-base"
+        ],
+        "description": "[border-style-base]"
+    },
+    "outline-blur-size": {
+        "prefix": "@outline-blur-size",
+        "body": [
+            "@outline-blur-size"
+        ],
+        "description": "[outline-blur-size]"
+    },
+    "outline-width": {
+        "prefix": "@outline-width",
+        "body": [
+            "@outline-width"
+        ],
+        "description": "[outline-width]"
+    },
+    "outline-color": {
+        "prefix": "@outline-color",
+        "body": [
+            "@outline-color"
+        ],
+        "description": "[outline-color]"
+    },
+    "disabled-color": {
+        "prefix": "@disabled-color",
+        "body": [
+            "@disabled-color"
+        ],
+        "description": "[disabled-color]"
+    },
+    "disabled-bg": {
+        "prefix": "@disabled-bg",
+        "body": [
+            "@disabled-bg"
+        ],
+        "description": "[disabled-bg]"
+    },
+    "disabled-color-dark": {
+        "prefix": "@disabled-color-dark",
+        "body": [
+            "@disabled-color-dark"
+        ],
+        "description": "[disabled-color-dark]"
+    },
+    "shadow-color": {
+        "prefix": "@shadow-color",
+        "body": [
+            "@shadow-color"
+        ],
+        "description": "[shadow-color]"
+    },
+    "shadow-color-inverse": {
+        "prefix": "@shadow-color-inverse",
+        "body": [
+            "@shadow-color-inverse"
+        ],
+        "description": "[shadow-color-inverse]"
+    },
+    "box-shadow-base": {
+        "prefix": "@box-shadow-base",
+        "body": [
+            "@box-shadow-base"
+        ],
+        "description": "[box-shadow-base]"
+    },
+    "shadow-1-up": {
+        "prefix": "@shadow-1-up",
+        "body": [
+            "@shadow-1-up"
+        ],
+        "description": "[shadow-1-up]"
+    },
+    "shadow-1-down": {
+        "prefix": "@shadow-1-down",
+        "body": [
+            "@shadow-1-down"
+        ],
+        "description": "[shadow-1-down]"
+    },
+    "shadow-1-left": {
+        "prefix": "@shadow-1-left",
+        "body": [
+            "@shadow-1-left"
+        ],
+        "description": "[shadow-1-left]"
+    },
+    "shadow-1-right": {
+        "prefix": "@shadow-1-right",
+        "body": [
+            "@shadow-1-right"
+        ],
+        "description": "[shadow-1-right]"
+    },
+    "shadow-2": {
+        "prefix": "@shadow-2",
+        "body": [
+            "@shadow-2"
+        ],
+        "description": "[shadow-2]"
     }
 }

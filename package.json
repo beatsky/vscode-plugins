@@ -1,5 +1,5 @@
 {
-    "name": "qys",
+    "name": "qysnippet",
     "displayName": "",
     "description": "",
     "version": "0.0.1",
@@ -13,8 +13,10 @@
         "snippets": [
             {
                 "language": "css",
-                "path": "./snippets/private-sign-style.json"
+                "path": "./snippets/private-sign-style.json" 
             }
         ]
-    }
+    },
+    "icon": "media/icon.png",
+    "publisher": "Beatsky"
 }
