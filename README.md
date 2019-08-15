@@ -1,6 +1,7 @@
-# qys README
+# QYS Snippet
 
-系统主题色提示插件
+## 前端团队
+- Sign 系统主题变量提示
 
-## Features
+
 
