@@ -23,7 +23,6 @@ fs.readFile('./src/index.less', function (err, data) {
         if (err) throw err;
         console.log('success');
     });
-
 });
 
 
