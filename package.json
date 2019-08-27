@@ -1,11 +1,15 @@
 {
     "name": "qysnippet",
-    "displayName": "",
-    "description": "",
+    "displayName": "qysnippet",
+    "description": "qysnippet",
     "version": "0.0.2",
     "engines": {
         "vscode": "^1.37.0"
     },
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/beatsky/vscode-plugins.git"
+	},
     "categories": [
         "Snippets"
     ],
