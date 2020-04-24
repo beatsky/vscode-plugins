@@ -4,28 +4,21 @@
         "body": [
             ".flex();"
         ],
-        "description": "[.flex();]"
-    },
-    ".flex()": {
-        "prefix": ".flex",
-        "body": [
-            ".flex(${1:@justify}, ${2:@align}, ${3:@direction});"
-        ],
-        "description": "[.flex(@justify: center; @align: center; @direction: row);]"
+        "description": "[@justify: center; @align: center; @direction: row]"
     },
     ".box-sizing": {
         "prefix": ".box-sizing",
         "body": [
-            ".box-sizing(${1:border-box});"
+            ".box-sizing();"
         ],
         "description": "[box-sizing]"
     },
     ".placeholder": {
         "prefix": ".placeholder",
         "body": [
-            ".placeholder(${1:@color});"
+            ".placeholder();"
         ],
-        "description": "[placeholder]"
+        "description": "[.placeholder(@color)]"
     },
     ".clearfix": {
         "prefix": ".clearfix",
@@ -58,64 +51,64 @@
     ".ellipsis": {
         "prefix": ".ellipsis",
         "body": [
-            ".ellipsis(${1:@line-num});"
+            ".ellipsis();"
         ],
-        "description": "[超出行数截断只在WebKit内核下有效]"
+        "description": " [.ellipsis(${1:@line-num}) 超出行数截断只在WebKit内核下有效]"
     },
     ".absolute": {
         "prefix": ".absolute",
         "body": [
-            ".absolute(${1:@top}, ${2:@right}, ${3:@bottom}, ${4:@left});"
+            ".absolute($0);"
         ],
-        "description": "[例：position: absolute; top: 0; right: 5px; bottom: 10px; left: 15px;]"
+        "description": "[@top, @right, @bottom,@left]"
     },
     ".fixed": {
         "prefix": ".fixed",
         "body": [
-            ".fixed(${1:@top}, ${2:@right}, ${3:@bottom}, ${4:@left});"
+            ".fixed($0);"
         ],
-        "description": "[例：position: fixed; top: 0; right: 5px; bottom: 10px; left: 15px;]"
+        "description": "[@top, @right, @bottom,@left]"
     },
     ".relative": {
         "prefix": ".relative",
         "body": [
-            ".relative(${1:@top}, ${2:@right}, ${3:@bottom}, ${4:@left});"
+            ".relative($0);"
         ],
-        "description": "[例：position: relative; top: 0; right: 5px; bottom: 10px; left: 15px;]"
+        "description": "[@top, @right, @bottom,@left]"
     },
     ".padding": {
         "prefix": ".padding",
         "body": [
-            ".padding(${1:@top}, ${2:@right}, ${3:@bottom}, ${4:@left});"
+            ".padding($0);"
         ],
-        "description": "[例：padding-top: 0; padding-right: 5px; padding-bottom: 10px; padding-left: 15px;]"
+        "description": "[@top, @right, @bottom,@left]"
     },
     ".margin": {
         "prefix": ".margin",
         "body": [
-            ".margin(${1:@top}, ${2:@right}, ${3:@bottom}, ${4:@left});"
+            ".margin($0);"
         ],
-        "description": "[例：margin-top: 0; margin-right: 5px; margin-bottom: 10px; margin-left: 15px;]"
+        "description": "[@top, @right, @bottom,@left]"
     },
     ".border-color": {
         "prefix": ".border-color",
         "body": [
-            ".border-color(${1:@color}, ${2:@color}, ${3:@color}, ${4:@color});"
+            ".border-color($0);"
         ],
-        "description": "[border-color]"
+        "description": "[@topcolor, @rightcolor, @bottomcolor, @leftcolor]"
     },
     ".border-style": {
         "prefix": ".border-style",
         "body": [
-            ".border-style(${1:@style}, ${2:@style}, ${3:@style}, ${4:@style});"
+            ".border-style($0);"
         ],
-        "description": "[border-style]"
+        "description": "[@style, @style, @style, @style]"
     },
     ".border-width": {
         "prefix": ".border-width",
         "body": [
-            ".border-width(${1:@width}, ${2:@width}, ${3:@width}, ${4:@width});"
+            ".border-width($0);"
         ],
-        "description": "[border-width]"
+        "description": "[@width, @width, @width, @width]"
     }
 }
