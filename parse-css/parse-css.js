@@ -8,7 +8,7 @@ fs.readFile('./parse-css/css/default.less', function (err, data) {
    
     let jsonArray = [];
     // 匹配‘@’开头，‘:’结尾字符，且不包括开头和结尾
-    let patt = /(?<=\@).*(?=\;)/g;
+    let patt = /(?<=\@).*(?=\n)/g;
     let result;
     while ((result = patt.exec(cssString)) !== null)  {
         let JSONItem = `"${result[0].split(': ')[0]}": {

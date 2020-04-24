@@ -25,7 +25,7 @@
         "body": [
             "@color-primary-prior"
         ],
-        "description": "[#2489f3]"
+        "description": "[#2489f3 // 优先级最高的品牌色，切换主题不变]"
     },
     "color-primary-light": {
         "prefix": "@color-primary-light",
@@ -81,49 +81,49 @@
         "body": [
             "@color-info"
         ],
-        "description": "[#c1c6cd]"
+        "description": "[#c1c6cd // 不可点击文本/图标]"
     },
     "color-text-primary": {
         "prefix": "@color-text-primary",
         "body": [
             "@color-text-primary"
         ],
-        "description": "[#001330]"
+        "description": "[#001330 // 正文/标题色]"
     },
     "color-text-regular": {
         "prefix": "@color-text-regular",
         "body": [
             "@color-text-regular"
         ],
-        "description": "[#4c596e]"
+        "description": "[#4c596e // 正文辅助/图标]"
     },
     "color-text-secondary": {
         "prefix": "@color-text-secondary",
         "body": [
             "@color-text-secondary"
         ],
-        "description": "[#7f8997]"
+        "description": "[#7f8997 // 次级文本]"
     },
     "color-text-placeholder": {
         "prefix": "@color-text-placeholder",
         "body": [
             "@color-text-placeholder"
         ],
-        "description": "[@color-text-secondary]"
+        "description": "[@color-text-secondary // TODO]"
     },
     "border-color-base": {
         "prefix": "@border-color-base",
         "body": [
             "@border-color-base"
         ],
-        "description": "[#e5e7ea]"
+        "description": "[#e5e7ea // 主色]"
     },
     "border-color-light": {
         "prefix": "@border-color-light",
         "body": [
             "@border-color-light"
         ],
-        "description": "[#f2f3f4]"
+        "description": "[#f2f3f4 // 次级]"
     },
     "border-radius-base": {
         "prefix": "@border-radius-base",
@@ -165,21 +165,21 @@
         "body": [
             "@background-color-base"
         ],
-        "description": "[#f7f8f8]"
+        "description": "[#f7f8f8 // 主色]"
     },
     "background-color-light": {
         "prefix": "@background-color-light",
         "body": [
             "@background-color-light"
         ],
-        "description": "[#f2f3f4]"
+        "description": "[#f2f3f4 // 次级 TODO]"
     },
     "body-background": {
         "prefix": "@body-background",
         "body": [
             "@body-background"
         ],
-        "description": "[@background-color-base]"
+        "description": "[@background-color-base // Background color for `<body>`]"
     },
     "background-color-dark": {
         "prefix": "@background-color-dark",
@@ -194,6 +194,20 @@
             "@background-color-error-light"
         ],
         "description": "[#FDEDE8]"
+    },
+    "font-family": {
+        "prefix": "@font-family",
+        "body": [
+            "@font-family"
+        ],
+        "description": "[-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC',]"
+    },
+    "code-family": {
+        "prefix": "@code-family",
+        "body": [
+            "@code-family"
+        ],
+        "description": "['SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,]"
     },
     "font-size-sm": {
         "prefix": "@font-size-sm",
@@ -291,7 +305,7 @@
         "body": [
             "@link-hover-color"
         ],
-        "description": "[#50a1f5]"
+        "description": "[#50a1f5 // TODO]"
     },
     "link-active-color": {
         "prefix": "@link-active-color",
@@ -417,7 +431,7 @@
         "body": [
             "@animation-duration-slow"
         ],
-        "description": "[0.3s]"
+        "description": "[0.3s // Modal]"
     },
     "animation-duration-base": {
         "prefix": "@animation-duration-base",
@@ -431,7 +445,7 @@
         "body": [
             "@animation-duration-fast"
         ],
-        "description": "[0.1s]"
+        "description": "[0.1s // Tooltip]"
     },
     "outline-blur-size": {
         "prefix": "@outline-blur-size",
