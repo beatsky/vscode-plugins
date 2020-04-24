@@ -2,9 +2,9 @@
     "name": "qysnippet",
     "displayName": "qysnippet",
     "description": "qysnippet",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
-        "vscode": "^1.30.1"
+        "vscode": "^1.44.0"
     },
     "repository": {
         "type": "git",
