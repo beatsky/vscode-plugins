@@ -13,14 +13,40 @@
     "categories": [
         "Snippets"
     ],
-    "contributes": {
-        "snippets": [
+	"main": "./extension.js",
+	"contributes": {
+		"snippets": [
             {
                 "language": "less",
-                "path": "./snippets/private-sign-style.json" 
+                "path": "./src/snippets/less.json" 
+            },
+            {
+                "language": "less",
+                "path": "./src/snippets/css-mixins.json" 
+            },
+            {
+                "language": "html",
+                "path": "./src/snippets/util.json" 
             }
         ]
-    },
-    "icon": "media/icon.png",
-    "publisher": "Beatsky"
+	},
+	"icon": "media/icon.png",
+    "publisher": "Beatsky",
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js",
+		"snippet": "node ./parse-css/parse-css.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.44.0",
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.1",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	}
 }
